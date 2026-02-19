@@ -8,7 +8,8 @@ Featuring a premium dark-themed interface with glassmorphic elements and interac
 
 ## 🚀 Features
 <img width="1352" height="676" alt="image" src="https://github.com/user-attachments/assets/c6e7825c-bf74-43b3-846e-cb7d4afc007a" />
-<img width="1358" height="587" alt="image" src="https://github.com/user-attachments/assets/87f83ec1-a84f-4709-9f55-74a04cb1a2fc" />
+<img width="1357" height="597" alt="image" src="https://github.com/user-attachments/assets/b2149ba1-9a3f-4b7c-82a0-dd5b8c9d9889" />
+<img width="1357" height="588" alt="image" src="https://github.com/user-attachments/assets/5d484238-80de-41a8-a0ee-94bbec50c4b4" />
 <img width="1365" height="596" alt="image" src="https://github.com/user-attachments/assets/5619911a-affb-474f-98a7-c6e445f9e107" />
 
 - **📊 Comprehensive Dashboard**: Real-time stats, activity charts (via Chart.js), and personalized progress tracking.
