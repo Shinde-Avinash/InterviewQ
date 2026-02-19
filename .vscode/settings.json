@@ -1,0 +1,12 @@
+{
+    "boxlang.cfml.mappings": [
+		{
+		  "logicalPath": "/coldbox",
+		  "directoryPath": "lib/coldbox"
+		},
+		{
+			"logicalPath": "/testbox",
+			"directoryPath": "lib/testbox"
+		  }
+	  ]
+}

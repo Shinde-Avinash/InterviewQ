@@ -1,0 +1,30 @@
+{
+    "name":"InterviewPrep",
+    "JVM":{
+        "heapSize":"512",
+        "javaVersion":"openjdk21_jre",
+        "args":"-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8888"
+    },
+    "app":{
+        "cfengine":"boxlang@be"
+    },
+    "web":{
+        "webroot":"public",
+        "rewrites":{
+            "enable":true
+        },
+        "aliases":{
+            "/coldbox/system/exceptions":"./lib/coldbox/system/exceptions/",
+            "/tests":"./tests/"
+        }
+    },
+    "cfconfig":{
+        "file":"./.cfconfig.json"
+    },
+    "scripts":{
+        "onServerInstall":[
+            "assertEqual \\${serverinfo.engineName} boxlang && install bx-esapi,bx-compat-cfml; exit 0",
+            "assertEqual \\${serverinfo.engineName} lucee && cfconfig cfmapping save /tests {web-root-directory}/../tests; exit 0"
+        ]
+    }
+}

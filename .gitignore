@@ -1,0 +1,33 @@
+# General Ignores + IDE + Secrets
+.DS_Store
+.env
+.env.*
+! .env.example
+effective-pom.xml
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# Deployed Engines
+.engine/**
+
+# logs + test results
+app/logs/**
+tests/results/**
+
+# npm
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+## Global Libs
+lib/**
+!lib/java/
+!lib/java/.gitkeep
+!lib/modules/
+!lib/modules/.gitkeep

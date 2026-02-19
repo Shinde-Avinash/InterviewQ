@@ -1,0 +1,29 @@
+{
+    "cacheDefaultObject":"coldbox",
+	"adminPassword":"coldbox",
+    "datasources":{
+        "stddb":{
+            "bundleName":"${DB_BUNDLENAME}",
+            "bundleVersion":"${DB_BUNDLEVERSION}",
+            "class":"${DB_CLASS}",
+            "connectionLimit":"100",
+            "connectionTimeout":"1",
+            "custom":"useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC&useLegacyDatetimeCode=true&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true",
+            "database":"${DB_DATABASE}",
+            "dbdriver":"${DB_DRIVER:MySQL}",
+            "dsn":"jdbc:mysql://{host}:{port}/{database}",
+            "host":"${DB_HOST:127.0.0.1}",
+            "password":"${DB_PASSWORD}",
+            "port":"${DB_PORT:3306}",
+            "storage":"false",
+            "username":"${DB_USER:avi10}"
+        }
+    },
+    "debuggingEnabled":true,
+    "debuggingReportExecutionTimes":false,
+    "disableInternalCFJavaComponents":false,
+    "requestTimeout":"0,0,5,0",
+    "requestTimeoutEnabled":true,
+    "robustExceptionEnabled":true,
+    "whitespaceManagement":"white-space-pref"
+}
